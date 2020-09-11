@@ -1,12 +1,11 @@
 {
   "name": "conveniencia-calegari",
   "version": "1.0.0",
-  "description": "Shoponix - MERN Next eCommerce Store",
+  "description": "Conveniencia Calegari",
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "start": "node server",
-    "postinstall": "npm run build",
+    "start": "next start",
     "build": "next build"
   },
   "keywords": [],
