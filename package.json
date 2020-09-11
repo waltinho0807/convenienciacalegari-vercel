@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "start": "NODE_ENV=production server.js",
+    "start": "yarn install && next build && next start",
     "build": "next build"
   },
   "keywords": [],
