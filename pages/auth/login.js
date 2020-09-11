@@ -92,10 +92,10 @@ const Login = () => {
             </Form>
             <Message attached="bottom" warning>
                 <Icon name="help" />
-                Not an account?{" "}
+                Não tem uma conta?{" "}
                 <Link href="/auth/signup">
-                    <a>Signup here</a>
-                </Link>{" "}instead.
+                    <a>Cadastre-se</a>
+                </Link>{" "}.
             </Message>
         </div>
     );
