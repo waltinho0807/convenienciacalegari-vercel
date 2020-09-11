@@ -103,10 +103,10 @@ const Signup = () => {
             </Form>
             <Message attached="bottom" warning>
                 <Icon name="help" />
-                Existing user?{" "}
+                Usuario Existe?{" "}
                 <Link href="/auth/login">
-                    <a>Login here</a>
-                </Link>{" "}instead.
+                    <a> Entre</a>
+                </Link>{" "}.
             </Message>
         </div>
     );
