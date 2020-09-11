@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "start": "yarn install && next build && next start",
+    "start": "node server",
+    "postinstall": "npm run build",
     "build": "next build"
   },
   "keywords": [],
