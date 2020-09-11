@@ -1,1 +1,0 @@
-{"ast":null,"code":"var baseUrl = true ? 'convenienciacalegari.com.br' : 'http://localhost:3000';\nexport default baseUrl;","map":null,"metadata":{},"sourceType":"module"}
