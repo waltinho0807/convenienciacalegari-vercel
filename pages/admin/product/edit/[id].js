@@ -102,7 +102,7 @@ const Edit = ({user, getProduct}) => {
             <div className="create-new-products-area">
                 <Header as="h2" block>
                     <Icon name="edit" color="orange" />
-                    Edit This Product ({getProduct.name})
+                    Editar Produto ({getProduct.name})
                 </Header>
                 <Form loading={loading} success={success} error={Boolean(error)} onSubmit={handleSubmit}>
                     <Message 

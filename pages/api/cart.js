@@ -37,7 +37,7 @@ const handleGetRequest = async (req, res) => {
         res.status(200).json(cart.products);
     } catch (error) {
         // console.error(error);
-        res.status(403).send("Please login");
+        res.status(403).send("Por Favor Entre");
     }
 }
 
@@ -63,11 +63,11 @@ const handlePutRequest = async (req, res) => {
             )
         }
 
-        res.status(200).send("Cart updated");
+        res.status(200).send("Carrinho atualizado");
         
     } catch (error) {
         // console.error(error);
-        res.status(403).send("Please login");
+        res.status(403).send("Por Favor Entre");
     }
 }
 
@@ -89,6 +89,6 @@ const handleDeleteRequest = async (req, res) => {
         res.status(200).json(cart.products);
     } catch (error) {
         console.error(error);
-        res.status(403).send("Please login");
+        res.status(403).send("Por Favor Entre");
     }
 }

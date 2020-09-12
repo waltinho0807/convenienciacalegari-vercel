@@ -106,7 +106,7 @@ const AddProduct = ({user}) => {
             <div className="create-new-products-area">
                 <Header as="h2" block>
                     <Icon name="add" color="orange" />
-                    Create a New Product
+                    Adicione um novo produto
                 </Header>
                 <Form loading={loading} success={success} error={Boolean(error)} onSubmit={handleSubmit}>
                     <Message 
