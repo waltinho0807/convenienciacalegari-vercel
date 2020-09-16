@@ -72,16 +72,16 @@ const OrdersHistory = ({ orders = [] }) => {
         <>
             <Header as="h2">
                 <Icon name="folder open" />
-                My Order History
+                Meu Historico De Ordems 
             </Header>
             {orders.length === 0 ? (
                 <Segment inverted tertiary color="pink" textAlign="center">
                     <Header icon>
                         <Icon name="copy outline" />
-                        No Past Orders.
+                        Não Tem Ordems.
                     </Header>
                     <Button onClick={() => router.push('/products')} color="violet">
-                        View Products
+                        Ver Produtos
                     </Button>
                 </Segment>
             ) : (
