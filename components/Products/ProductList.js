@@ -13,7 +13,7 @@ function ProductList({ products, totalPages }) {
                     </div>
                     <div className="content">
                         <div className="header">{product.name}</div>
-                        <div className="meta">${product.price}</div>
+                        <div className="meta">R${product.price}</div>
                     </div>
                 </a>
             </Link>
