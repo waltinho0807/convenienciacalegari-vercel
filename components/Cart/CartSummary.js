@@ -19,14 +19,15 @@ const CartSummary = ({ products, handleCheckout, success }) => {
         <React.Fragment>
             <Divider />
             <Segment clearing size="large">
-                <strong>Sub total:</strong> ${cartAmout}
+                <strong>Sub total:</strong>R$ {cartAmout}
                 <StripeCheckout
-                    name="Shoponix"
+                    name="Conv. Calegari"
                     amount={stripeAmount}
                     image={products.length > 0 ? products[0].product.mediaUrl : ""}
                     currency="BRL"
                     shippingAddress={true}
                     billingAddress={true}
+                    locale={'pt'}
                     zipCode={true}
                     stripeKey="pk_test_51H9DjUDvVpK1u7JvauE1t2VkVYyda6CGrlVy8az40uO9ELwXmQ3NFghlLIcTJDInZIazUlxLGMuUaMHhRjArCPB9008RvaFo7N"
                     token={handleCheckout}
