@@ -18,7 +18,7 @@ const AllOrders = ({ orders }) => {
                 content: (
                     <>
                         <List.Header as="h3">
-                            Total: ${order.total}
+                            Total: R${order.total}
                             <Label 
                                 content={order.email}
                                 icon="mail"
@@ -36,7 +36,7 @@ const AllOrders = ({ orders }) => {
                                             {p.product.name}
                                         </List.Header>
                                         <List.Description>
-                                            {p.quantity} x ${p.product.price}
+                                            {p.quantity} x R${p.product.price}
                                         </List.Description>
                                     </List.Content>
                                     <List.Content floated="right">
@@ -62,10 +62,10 @@ const AllOrders = ({ orders }) => {
                 <Segment inverted tertiary color="pink" textAlign="center">
                     <Header icon>
                         <Icon name="copy outline" />
-                        No Past Orders.
+                        Não Há Ordems.
                     </Header>
                     <Button onClick={() => router.push('/products')} color="violet">
-                        View Products
+                        Ver Produtos
                     </Button>
                 </Segment>
             ) : (

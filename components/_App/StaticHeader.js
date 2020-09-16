@@ -63,7 +63,7 @@ const StaticHeader = ({ user }) => {
                                     Bebidas Exclusivo
                                 </a>
                             </Link>
-                            <Link href="/vinhos">
+                            <Link href="/churrasco">
                                 <a className={`item ${isActive('/importados') ? 'active' : null}`}>
                                     <i className=""></i>
                                     Importados Exclusivo
@@ -81,7 +81,7 @@ const StaticHeader = ({ user }) => {
                                     Congelados Exclusivo
                                 </a>
                             </Link>
-                            <Link href="/espetos">
+                            <Link href="/churrasco">
                                 <a className={`item ${isActive('/churrasco') ? 'active' : null}`}>
                                     <i className=""></i>
                                     Churrasco Exclusivo
@@ -105,7 +105,7 @@ const StaticHeader = ({ user }) => {
                             </Link>
                             <Link href="/products?term=importados">
                                 <a className={`item`}>
-                                    Vinhos
+                                    Importados
                                 </a>
                             </Link>
                             <Link href="/products?term=massas">
@@ -120,7 +120,7 @@ const StaticHeader = ({ user }) => {
                             </Link>
                             <Link href="/products?term=churrasco">
                                 <a className={`item`}>
-                                    Espetos
+                                    Churrasco
                                 </a>
                             </Link>
                             <Link href="/products">
@@ -162,7 +162,7 @@ const StaticHeader = ({ user }) => {
                                         <Link href="/my-orders-history">
                                             <a className={`item ${isActive('/my-orders-history') ? 'active' : null}`}>
                                                 <i className="history icon"></i>
-                                                Meu Historico Ordems
+                                                 Historico Ordems
                                             </a>
                                         </Link>
                                         <div className="divider"></div>
@@ -255,7 +255,7 @@ const StaticHeader = ({ user }) => {
                                     Massas Exclusivo
                                 </a>
                             </Link>
-                            <Link href="/verduras">
+                            <Link href="/congelados">
                                 <a className={`item ${isActive('/congelados') ? 'active' : null}`} onClick={menuToggle}>
                                     <i className="braille icon"></i>
                                     Congelados Exclusivo
@@ -285,7 +285,7 @@ const StaticHeader = ({ user }) => {
                             </Link>
                             <Link href="/products?term=importados">
                                 <a className={`item`} onClick={menuToggle}>
-                                    Vinhos
+                                    Importados
                                 </a>
                             </Link>
                             <Link href="/products?term=massas">
@@ -295,12 +295,12 @@ const StaticHeader = ({ user }) => {
                             </Link>
                             <Link href="/products?term=congelados">
                                 <a className={`item`} onClick={menuToggle}>
-                                    Verduras
+                                    Congelados
                                 </a>
                             </Link>
                             <Link href="/products?term=churrasco">
                                 <a className={`item`} onClick={menuToggle}>
-                                    Espetos
+                                    Churrasco
                                 </a>
                             </Link>
                             <Link href="/products">
