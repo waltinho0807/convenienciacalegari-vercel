@@ -32,8 +32,8 @@ const CartItemList = ({ products, user, handleRemoveFromCart, success }) => {
         return(
             <Message 
                 success
-                header="success"
-                content="Your order and payment has been accepted!"
+                header="sucesso"
+                content="Sua ordem de pagamento foi aceita!"
                 icon="star outline"
             />
         )

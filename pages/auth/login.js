@@ -48,8 +48,8 @@ const Login = () => {
             <Message
                 attached
                 icon="privacy"
-                header="Welcome Back!"
-                content="Login with email and password"
+                header="Ben-vindo de volta!"
+                content="Entre com seu email"
                 color="green"
             />
             <Form error={Boolean(error)} loading={loading} onSubmit={handleSubmit}>
@@ -84,7 +84,7 @@ const Login = () => {
                     <Button
                         icon="sign-in"
                         type="submit"
-                        content="Login Now"
+                        content="Entre"
                         color="green"
                         disabled={disabled || loading}
                     />

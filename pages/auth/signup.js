@@ -49,8 +49,8 @@ const Signup = () => {
             <Message
                 attached
                 icon="settings"
-                header="Get Started"
-                content="Create a new account"
+                header="Comece Agora"
+                content="Crie sua conta"
                 color="green"
             />
             <Form error={Boolean(error)} loading={loading} onSubmit={handleSubmit}>
@@ -64,8 +64,8 @@ const Signup = () => {
                         fluid
                         icon="user"
                         iconPosition="left"
-                        label="Name"
-                        placeholder="Name"
+                        label="Nome"
+                        placeholder="Nome"
                         name="name"
                         value={user.name}
                         onChange={handleChange}
@@ -85,8 +85,8 @@ const Signup = () => {
                         fluid
                         icon="lock"
                         iconPosition="left"
-                        label="Password"
-                        placeholder="Password"
+                        label="Senha"
+                        placeholder="Senha"
                         name="password"
                         type="password"
                         value={user.password}
@@ -95,7 +95,7 @@ const Signup = () => {
                     <Button 
                         icon="signup"
                         type="submit"
-                        content="Signup Now"
+                        content="Cadastre Agora"
                         color="green"
                         disabled={disabled || loading}
                     />
@@ -103,7 +103,7 @@ const Signup = () => {
             </Form>
             <Message attached="bottom" warning>
                 <Icon name="help" />
-                Usuario Existe?{" "}
+                Usuario Existe ?{" "}
                 <Link href="/auth/login">
                     <a> Entre</a>
                 </Link>{" "}.

@@ -1,28 +1,24 @@
-import React from 'react';
 import axios from 'axios';
-import Banner from '../components/Espetos/Banner';
-import CategoryBanner from '../components/Espetos/CategoryBanner';
-import OfferArea from '../components/Espetos/OfferArea';
-import HotProducts from '../components/Espetos/HotProducts';
 import baseUrl from '../utils/baseUrl';
+import Banner from "../components/Importados/Banner"
+import CategoryBanner from "../components/Importados/CategoryBanner"
+import HotProducts from "../components/Importados/HotProducts"
 
-const Home = ({ products }) => {
-    // console.log(products)
+const Electronics = ({products}) => {
     return(
-        <React.Fragment>
+        <>
             <Banner />
             <CategoryBanner />
             <HotProducts products={products} />
-            <OfferArea />
-        </React.Fragment>
+        </>
     );
 }
 
-Home.getInitialProps = async (ctx) => {
+Electronics.getInitialProps = async (ctx) => {
     // console.log(ctx.query)
     const page = ctx.query.page ? ctx.query.page : "1";
     const size = 8;
-    const searchTerm = "fashion";
+    const searchTerm = "importados";
     // fetch data on server
     const url = `${baseUrl}/api/products`;
     const payload = { params: {page, size, searchTerm}}
@@ -32,4 +28,4 @@ Home.getInitialProps = async (ctx) => {
     // note: this object will be merge with existing props
 }
 
-export default Home;
+export default Electronics;

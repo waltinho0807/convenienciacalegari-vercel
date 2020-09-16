@@ -1,24 +1,28 @@
+import React from 'react';
 import axios from 'axios';
+import Banner from '../components/Churrasco/Banner';
+import CategoryBanner from '../components/Churrasco/CategoryBanner';
+import OfferArea from '../components/Churrasco/OfferArea';
+import HotProducts from '../components/Churrasco/HotProducts';
 import baseUrl from '../utils/baseUrl';
-import Banner from "../components/Vinhos/Banner"
-import CategoryBanner from "../components/Vinhos/CategoryBanner"
-import HotProducts from "../components/Vinhos/HotProducts"
 
-const Electronics = ({products}) => {
+const Home = ({ products }) => {
+    // console.log(products)
     return(
-        <>
+        <React.Fragment>
             <Banner />
             <CategoryBanner />
             <HotProducts products={products} />
-        </>
+            <OfferArea />
+        </React.Fragment>
     );
 }
 
-Electronics.getInitialProps = async (ctx) => {
+Home.getInitialProps = async (ctx) => {
     // console.log(ctx.query)
     const page = ctx.query.page ? ctx.query.page : "1";
     const size = 8;
-    const searchTerm = "electronics";
+    const searchTerm = "churrasco";
     // fetch data on server
     const url = `${baseUrl}/api/products`;
     const payload = { params: {page, size, searchTerm}}
@@ -28,4 +32,4 @@ Electronics.getInitialProps = async (ctx) => {
     // note: this object will be merge with existing props
 }
 
-export default Electronics;
+export default Home;

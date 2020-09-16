@@ -16,13 +16,9 @@ import AdminSidebar from '../../components/_App/AdminSidebar';
 
 const options = [
     { key: 'bebidas', text: 'Bebidas', value: 'bebidas' },
-    { key: 'frios', text: 'Frios', value: 'frios' },
-    { key: 'verduras', text: 'Verduras', value: 'verduras' },
-    { key: 'legumes', text: 'Legumes', value: 'legumes' },
+    { key: 'importados', text: 'Importados', value: 'importados' },
+    { key: 'churrasco', text: 'Churrasco', value: 'churrasco' },
     { key: 'mercearia', text: 'Mercearia', value: 'mercearia' },
-    { key: 'sorvetes', text: 'Sorvetes', value: 'sorvetes' },
-    { key: 'espetos', text: 'Espetos', value: 'espetos' },
-    { key: 'vinhos', text: 'Vinhos', value: 'vinhos' },
     { key: 'massas', text: 'Massas', value: 'massas' },
     { key: 'congelados', text: 'Congelados', value: 'congelados' },
 ]
@@ -125,16 +121,16 @@ const AddProduct = ({user}) => {
                         <Form.Field 
                             control={Input}
                             name="name"
-                            label="Name"
-                            placeholder="Name"
+                            label="Nome"
+                            placeholder="Nome"
                             value={product.name}
                             onChange={handleChanhe}
                         />
                         <Form.Field 
                             control={Input}
                             name="price"
-                            label="Price"
-                            placeholder="Price"
+                            label="Preço"
+                            placeholder="Preço"
                             min="0.00"
                             step="0.01"
                             type="number"
@@ -143,9 +139,9 @@ const AddProduct = ({user}) => {
                         />
                         <Form.Select
                             name="type"
-                            label='Type'
+                            label='Tipo'
                             options={options}
-                            placeholder='Type'
+                            placeholder='Tipo'
                             onChange={handleSelectInput}
                         />
                     </Form.Group>
@@ -162,8 +158,8 @@ const AddProduct = ({user}) => {
                     <Form.Field 
                         control={TextArea}
                         name="description"
-                        label="Description"
-                        placeholder="Description"
+                        label="Descrição"
+                        placeholder="Descrição"
                         value={product.description}
                         onChange={handleChanhe}
                     />

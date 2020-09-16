@@ -15,16 +15,13 @@ import catchErrors from '../../../../utils/catchErrors';
 import AdminSidebar from '../../../../components/_App/AdminSidebar';
 
 const options = [
-    { key: 't-shirt', text: 'T-Shirt', value: 't-shirt' },
-    { key: 'fashion', text: 'Fashion', value: 'fashion' },
-    { key: 'furniture', text: 'Furniture', value: 'furniture' },
-    { key: 'jewelry', text: 'Jewelry', value: 'jewelry' },
-    { key: 'book-magazine', text: 'Book and Magazine', value: 'book-magazine' },
-    { key: 'electronics', text: 'Electronics', value: 'electronics' },
-    { key: 'medical', text: 'Medical', value: 'medical' },
-    { key: 'home-decor', text: 'Home Decor', value: 'home-decor' },
-    { key: 'grocery', text: 'Grocery', value: 'grocery' },
-    { key: 'other', text: 'Other', value: 'other' },
+    { key: 'mercearia', text: 'Mercearia', value: 'mercearia' },
+    { key: 'bebidas', text: 'Bebidas', value: 'bebidas' },
+    { key: 'importados', text: 'Importados', value: 'importados' },
+    { key: 'massas', text: 'Massas', value: 'massas' },
+    { key: 'congelados', text: 'Congelados', value: 'congelados' },
+    { key: 'churrasco', text: 'Churrasco', value: 'churrasco' },
+   
 ]
 
 const Edit = ({user, getProduct}) => {
@@ -114,8 +111,8 @@ const Edit = ({user, getProduct}) => {
                     <Message 
                         success
                         icon="check"
-                        header="Success!"
-                        content="Your product has been submitted"
+                        header="Sucesso!"
+                        content="Seu produto foi enviado"
                     />
                     <Form.Group widths="equal">
                         <Form.Field 
@@ -129,8 +126,8 @@ const Edit = ({user, getProduct}) => {
                         <Form.Field 
                             control={Input}
                             name="price"
-                            label="Price"
-                            placeholder="Price"
+                            label="Preço"
+                            placeholder="Preço"
                             min="0.00"
                             step="0.01"
                             type="number"
@@ -139,9 +136,9 @@ const Edit = ({user, getProduct}) => {
                         />
                         <Form.Select
                             name="type"
-                            label='Type'
+                            label='Tipo'
                             options={options}
-                            placeholder='Type'
+                            placeholder='Tipo'
                             onChange={handleSelectInput}
                             defaultValue={product.productType}
                         />
@@ -159,8 +156,8 @@ const Edit = ({user, getProduct}) => {
                     <Form.Field 
                         control={TextArea}
                         name="description"
-                        label="Description"
-                        placeholder="Description"
+                        label="Descrição"
+                        placeholder="Descrição"
                         value={product.description}
                         onChange={handleChanhe}
                     />

@@ -19,7 +19,7 @@ Covid19.getInitialProps = async (ctx) => {
     // console.log(ctx.query)
     const page = ctx.query.page ? ctx.query.page : "1";
     const size = 8;
-    const searchTerm = "medical";
+    const searchTerm = "bebidas";
     // fetch data on server
     const url = `${baseUrl}/api/products`;
     const payload = { params: {page, size, searchTerm}}

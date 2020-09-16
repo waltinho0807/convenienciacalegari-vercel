@@ -7,7 +7,7 @@ const Banner = () => {
                 <h1>Confira Nossos Vinhos</h1>
                 <p>Vinhos Nacionais e Importados!</p>
                 <h2>Com Descontos Pelo Site</h2>
-                <Link href="/products?term=vinhos">
+                <Link href="/products?term=importados">
                     <a className="default-btn">Compre Agora</a>
                 </Link>
             </div>

@@ -10,7 +10,7 @@ export default async (req, res) => {
     try {
         const user = await User.findOne({ email }).select('+password');
         if(!user) {
-            return res.status(404).send("User does not exists");
+            return res.status(404).send("Usuario não existe");
         }
 
         const passwordsMatch = await bcrypt.compare(password, user.password);
@@ -18,10 +18,10 @@ export default async (req, res) => {
             const token = jwt.sign({ userId: user._id}, process.env.JWT_SECRET, {expiresIn: '7d'});
             res.status(200).json(token);
         } else {
-            res.status(401).send("Password not match");
+            res.status(401).send("Password não combina");
         }
     } catch (error) {
         console.error(error);
-        res.status(500).send("Error logging in user");
+        res.status(500).send("Erro ao logar");
     }
 }

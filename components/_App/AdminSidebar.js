@@ -55,7 +55,7 @@ const AdminSidebar = ({children, user}) => {
                         )}
                         <Menu.Item as='a' onClick={handleLogout} >
                             <Icon name='sign-out' />
-                            Logout
+                            Sair
                         </Menu.Item>
                     </>
                 )}

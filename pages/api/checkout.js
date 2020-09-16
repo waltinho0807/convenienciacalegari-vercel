@@ -31,7 +31,7 @@ export default async (req, res) => {
         }
         const customer = (isExistingCustomer && prevCustomer.data[0].id) || newCustomer.id;
         await stripe.charges.create({
-            currency: "usd",
+            currency: "brl",
             amount: stripeTotal,
             receipt_email: paymentData.email,
             customer,
@@ -52,7 +52,7 @@ export default async (req, res) => {
             {$set: {products: []}}
         )
 
-        res.status(200).send("Checkout successful!");
+        res.status(200).send("Checkout realizado com sucesso!");
     } catch (error) {
         console.error(error);
         res.status(500).send("Error proccessing charge");

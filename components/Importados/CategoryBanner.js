@@ -11,7 +11,7 @@ const CategoryBanner = () => {
                         <div className="content">
                             <span>10% Desconto</span>
                             <h3>Vinho Pireni</h3>
-                            <Link href="/products?term=vinhos">
+                            <Link href="/products?term=importados">
                                 <a className="default-btn">Compre Agora</a>
                             </Link>
                         </div>
@@ -25,7 +25,7 @@ const CategoryBanner = () => {
                         <div className="content">
                             <span>20% OFF</span>
                             <h3>Vinho Cabernet</h3>
-                            <Link href="/products?term=vinhos">
+                            <Link href="/products?term=importados">
                                 <a className="default-btn">Compre Agora</a>
                             </Link>
                         </div>
@@ -39,7 +39,7 @@ const CategoryBanner = () => {
                         <div className="content">
                             <span>10% Desconto</span>
                             <h3>Vinho Pernambuco</h3>
-                            <Link href="/products?term=vinhos">
+                            <Link href="/products?term=importados">
                                 <a className="default-btn">Compre Agora</a>
                             </Link>
                         </div>
@@ -53,7 +53,7 @@ const CategoryBanner = () => {
                         <div className="content">
                             <span>20% Desconto</span>
                             <h3>Vinho Paschoeto</h3>
-                            <Link href="/products?term=vinhos">
+                            <Link href="/products?term=importados">
                                 <a className="default-btn">Compre Agora</a>
                             </Link>
                         </div>

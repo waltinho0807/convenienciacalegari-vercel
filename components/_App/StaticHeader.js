@@ -64,9 +64,9 @@ const StaticHeader = ({ user }) => {
                                 </a>
                             </Link>
                             <Link href="/vinhos">
-                                <a className={`item ${isActive('/vinhos') ? 'active' : null}`}>
+                                <a className={`item ${isActive('/importados') ? 'active' : null}`}>
                                     <i className=""></i>
-                                    Vinhos Exclusivo
+                                    Importados Exclusivo
                                 </a>
                             </Link>
                             <Link href="/massas">
@@ -82,9 +82,9 @@ const StaticHeader = ({ user }) => {
                                 </a>
                             </Link>
                             <Link href="/espetos">
-                                <a className={`item ${isActive('/espetos') ? 'active' : null}`}>
+                                <a className={`item ${isActive('/churrasco') ? 'active' : null}`}>
                                     <i className=""></i>
-                                    Espetos Exclusivo
+                                    Churrasco Exclusivo
                                 </a>
                             </Link>
                         </div>
@@ -103,7 +103,7 @@ const StaticHeader = ({ user }) => {
                                     Bebidas
                                 </a>
                             </Link>
-                            <Link href="/products?term=vinhos">
+                            <Link href="/products?term=importados">
                                 <a className={`item`}>
                                     Vinhos
                                 </a>
@@ -118,7 +118,7 @@ const StaticHeader = ({ user }) => {
                                     Congelados
                                 </a>
                             </Link>
-                            <Link href="/products?term=espetos">
+                            <Link href="/products?term=churrasco">
                                 <a className={`item`}>
                                     Espetos
                                 </a>
@@ -228,7 +228,7 @@ const StaticHeader = ({ user }) => {
                         </a>
                     </Link>
                     <div className="ui simple pointing left dropdown item">
-                        Home Paginas
+                         Paginas
                         <i className="dropdown icon"></i>
                         <div className="menu">
                             <Link href="/">
@@ -243,10 +243,10 @@ const StaticHeader = ({ user }) => {
                                     Bebidas Exclusivo
                                 </a>
                             </Link>
-                            <Link href="/vinhos">
-                                <a className={`item ${isActive('/vinhos') ? 'active' : null}`} onClick={menuToggle}>
+                            <Link href="/importados">
+                                <a className={`item ${isActive('/importados') ? 'active' : null}`} onClick={menuToggle}>
                                     <i className="won icon"></i>
-                                    Vinhos Exclusivo
+                                    Importados Exclusivo
                                 </a>
                             </Link>
                             <Link href="/massas">
@@ -261,10 +261,10 @@ const StaticHeader = ({ user }) => {
                                     Congelados Exclusivo
                                 </a>
                             </Link>
-                            <Link href="/espetos">
-                                <a className={`item ${isActive('/jewelry') ? 'active' : null}`} onClick={menuToggle}>
+                            <Link href="/churrasco">
+                                <a className={`item ${isActive('/churrasco') ? 'active' : null}`} onClick={menuToggle}>
                                     <i className="certificate icon"></i>
-                                    Espetos Exclisivo
+                                    Churrasco Exclisivo
                                 </a>
                             </Link>
                         </div>
@@ -283,7 +283,7 @@ const StaticHeader = ({ user }) => {
                                     Bebidas
                                 </a>
                             </Link>
-                            <Link href="/products?term=vinhos">
+                            <Link href="/products?term=importados">
                                 <a className={`item`} onClick={menuToggle}>
                                     Vinhos
                                 </a>
@@ -293,12 +293,12 @@ const StaticHeader = ({ user }) => {
                                     Massas
                                 </a>
                             </Link>
-                            <Link href="/products?term=verduras">
+                            <Link href="/products?term=congelados">
                                 <a className={`item`} onClick={menuToggle}>
                                     Verduras
                                 </a>
                             </Link>
-                            <Link href="/products?term=espetos">
+                            <Link href="/products?term=churrasco">
                                 <a className={`item`} onClick={menuToggle}>
                                     Espetos
                                 </a>

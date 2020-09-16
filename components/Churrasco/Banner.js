@@ -9,10 +9,10 @@ const Banner = () => {
                     <h1>Varios Sabores!</h1>
                     <p>Churrasco Pratico é aqui!</p>
                     <div className="btn-box">
-                        <Link href="/products?term=espetos">
+                        <Link href="/products?term=churrasco">
                             <a className="default-btn">Espetos</a>
                         </Link>
-                        <Link href="/products?term=espetos">
+                        <Link href="/products?term=churrasco">
                             <a className="optional-btn">Carnes </a>
                         </Link>
                     </div>

@@ -26,7 +26,7 @@ export default async (req, res) => {
 
 const handleGetRequest = async (req, res) => {
     if (!("authorization" in req.headers)){
-        return res.status(401).send("Not authenticated");
+        return res.status(401).send("Não está logado");
     }
     try {
         const {userId} = jwt.verify(req.headers.authorization, process.env.JWT_SECRET);
@@ -44,7 +44,7 @@ const handleGetRequest = async (req, res) => {
 const handlePutRequest = async (req, res) => {
     const { quantity, productId } = req.body;
     if (!("authorization" in req.headers)){
-        return res.status(401).send("Not authenticated");
+        return res.status(401).send("Não está logado");
     }
     try {
         const { userId } = jwt.verify(req.headers.authorization, process.env.JWT_SECRET);
@@ -74,7 +74,7 @@ const handlePutRequest = async (req, res) => {
 const handleDeleteRequest = async (req, res) => {
     const {productId} = req.query;
     if (!("authorization" in req.headers)){
-        return res.status(401).send("Not authenticated");
+        return res.status(401).send("Não está logado");
     }
     try {
         const { userId } = jwt.verify(req.headers.authorization, process.env.JWT_SECRET);

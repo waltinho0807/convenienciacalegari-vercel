@@ -12,11 +12,11 @@ const CategoryBanner = () => {
                             <div className="content text-white">
                                 <span>Espeto de Carne</span>
                                 <h3>10% Desconto</h3>
-                                <Link href="/products?term=espetos">
+                                <Link href="/products?term=churrasco">
                                     <a className="default-btn">Descubra Agora</a>
                                 </Link>
                             </div>
-                            <Link href="/products?term=espetos">
+                            <Link href="/products?term=churrasco">
                                 <a className="link-btn"></a>
                             </Link>
                         </div>
@@ -29,7 +29,7 @@ const CategoryBanner = () => {
                             <div className="content">
                                 <span>Novos Sabores</span>
                                 <h3>Conheça Agora</h3>
-                                <Link href="/products?term=espetos">
+                                <Link href="/products?term=churrasco">
                                     <a className="default-btn">Descubra Agora</a>
                                 </Link>
                             </div>
@@ -46,11 +46,11 @@ const CategoryBanner = () => {
                             <div className="content">
                                 <span>Espeto de Tilapia</span>
                                 <h3>Poucas Unidades</h3>
-                                <Link href="/products?term=espetos">
+                                <Link href="/products?term=churrasco">
                                     <a className="default-btn">Descubra Agora</a>
                                 </Link>
                             </div>
-                            <Link href="/products?term=espetos">
+                            <Link href="/products?term=churrasco">
                                 <a className="link-btn"></a>
                             </Link>
                         </div>
@@ -63,11 +63,11 @@ const CategoryBanner = () => {
                             <div className="content text-white">
                                 <span>Com Desconto</span>
                                 <h3>Espetos em promoção!</h3>
-                                <Link href="/products?term=espetos">
+                                <Link href="/products?term=churrasco">
                                     <a className="default-btn">Descubra Agora</a>
                                 </Link>
                             </div>
-                            <Link href="/products?term=espetos">
+                            <Link href="/products?term=churrasco">
                                 <a className="link-btn"></a>
                             </Link>
                         </div>

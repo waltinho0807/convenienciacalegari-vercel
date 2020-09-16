@@ -13,16 +13,16 @@ export default async (req, res) => {
     try {
         // check email, name, password format
         if (!isLength(name, {min: 3, max: 15})) {
-            return res.status(422).send("Name must be 3-10 characters long");
+            return res.status(422).send("Nome de 3-10 caracteres");
         } else if (!isLength(password, {min: 5, max: 15})){
-            return res.status(422).send("Password must be 5-15 characters long");
+            return res.status(422).send("Password entre 5-15 caracteres");
         } else if (!isEmail(email)){
-            return res.status(422).send("Email must be valid");
+            return res.status(422).send("Email deve ser valido");
         }
 
         const user = await User.findOne({ email });
         if (user){
-            return res.status(422).send(`User already exist with that ${email}`);
+            return res.status(422).send(`Usuario já existe ${email}`);
         }
 
         const passwordHash = await bcrypt.hash(password, 10);
@@ -39,6 +39,6 @@ export default async (req, res) => {
         res.status(201).json(token);
     } catch (error) {
         console.error(error);
-        res.status(500).send("Error in signup. Please try again.");
+        res.status(500).send("Erro ao cadastrar por favor tente novamente.");
     }
 }
