@@ -15,7 +15,7 @@ const Layout = ({ children, user }) => {
             <meta name="og:title" property="og:title" content="Conveniencia Calegari"></meta>
             <meta name="twitter:card" content="Shoponix - MERN Next eCommerce Store"></meta>
             <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"></link>
-            <meta property="og:image" content="https://res.cloudinary.com/dev-empty/image/upload/v1590078952/qlm6qb1hzxd6iccmaf82.jpg" />
+            <meta property="og:image" content="https://res.cloudinary.com/dye38whh3/image/upload/v1600276032/conv_calegari/l54e1fxxagapqlrkys3y.jpg" />
         </Head>
         
         <StaticHeader user={user} />
