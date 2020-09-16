@@ -20,11 +20,11 @@ const CategoryBanner = () => {
 
                 <div className="four wide column">
                     <div className="single-grocery-categories-box">
-                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1600272182/mercearia/c4x3ehkxd1jqhxdgbnlh.jpg" alt="category"/>
+                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1600278742/mercearia/xnz2thbtelb6qfecgfeg.jpg" alt="category"/>
 
                         <div className="content">
-                            <span>Pronto Para Consumo</span>
-                            <h3>Legumes Higienizados</h3>
+                            <span>Cogumelos Frescos</span>
+                            <h3>Para pratos mais saborosos</h3>
                             <Link href="/products?term=mercearia">
                                 <a className="default-btn">Compre Agora</a>
                             </Link>

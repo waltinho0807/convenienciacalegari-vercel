@@ -7,11 +7,11 @@ const CategoryBanner = () => {
                 <div className="ui grid">
                     <div className="four wide column">
                         <div className="single-categories-box">
-                            <img src="https://res.cloudinary.com/dev-empty/image/upload/v1589823075/categories-img1.jpg" alt="category"/>
+                            <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1600279049/conv_calegari/churrasco/qtnqrxltdqeklmma82m5.jpg" alt="category"/>
 
                             <div className="content text-white">
-                                <span>Espeto de Carne</span>
-                                <h3>10% Desconto</h3>
+                                <span>Carnes De Primeira</span>
+                                <h3>Variedade em cortes nobres</h3>
                                 <Link href="/products?term=churrasco">
                                     <a className="default-btn">Descubra Agora</a>
                                 </Link>
@@ -24,10 +24,10 @@ const CategoryBanner = () => {
 
                     <div className="four wide column">
                         <div className="single-categories-box">
-                            <img src="https://res.cloudinary.com/dev-empty/image/upload/v1589823075/categories-img2.jpg" alt="category"/>
+                            <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1600279048/conv_calegari/churrasco/cc3w3vm11fi51xd2lvqr.jpg" alt="category"/>
                             
                             <div className="content">
-                                <span>Novos Sabores</span>
+                                <span>Produtos Canta Galo</span>
                                 <h3>Conheça Agora</h3>
                                 <Link href="/products?term=churrasco">
                                     <a className="default-btn">Descubra Agora</a>
@@ -41,11 +41,11 @@ const CategoryBanner = () => {
 
                     <div className="four wide column">
                         <div className="single-categories-box">
-                            <img src="https://res.cloudinary.com/dev-empty/image/upload/v1589823075/categories-img3.jpg" alt="category"/>
+                            <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1600279042/conv_calegari/churrasco/vawl9m8yd05zl1ixkedt.jpg" alt="category"/>
                             
                             <div className="content">
-                                <span>Espeto de Tilapia</span>
-                                <h3>Poucas Unidades</h3>
+                                <span>Grande Variedade em temperos</span>
+                                <h3>Toque perfeito</h3>
                                 <Link href="/products?term=churrasco">
                                     <a className="default-btn">Descubra Agora</a>
                                 </Link>
@@ -58,11 +58,11 @@ const CategoryBanner = () => {
 
                     <div className="four wide column">
                         <div className="single-categories-box">
-                            <img src="https://res.cloudinary.com/dev-empty/image/upload/v1589823075/categories-img4.jpg" alt="category"/>
+                            <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1600279040/conv_calegari/churrasco/e1ghzhxu0bso4bby5kiw.jpg" alt="category"/>
                              
                             <div className="content text-white">
-                                <span>Com Desconto</span>
-                                <h3>Espetos em promoção!</h3>
+                                <span>Linguiças do Nerso</span>
+                                <h3>Em primeira mão!</h3>
                                 <Link href="/products?term=churrasco">
                                     <a className="default-btn">Descubra Agora</a>
                                 </Link>
