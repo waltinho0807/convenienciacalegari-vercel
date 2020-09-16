@@ -1326,6 +1326,7 @@ img {
 }
 
 .grocery-banner-content p {
+  color: #fff;
   font-size: 20px;
   font-weight: 600;
 }
@@ -1371,12 +1372,14 @@ img {
 }
 
 .single-grocery-categories-box .content span {
+  color: #fff;
   display: block;
   font-size: 17px;
   font-weight: 700;
 }
 
 .single-grocery-categories-box .content h3 {
+  color: #fff;
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 0;
