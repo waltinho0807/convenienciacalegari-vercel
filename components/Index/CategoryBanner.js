@@ -6,11 +6,11 @@ const CategoryBanner = () => {
             <div className="ui grid">
                 <div className="four wide column">
                     <div className="single-grocery-categories-box">
-                        <img src="https://res.cloudinary.com/dev-empty/image/upload/v1590006640/grocery-category1.jpg" alt="category"/>
+                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1600272182/mercearia/w02yjvucpt0waa1hx8bc.jpg" alt="category"/>
 
                         <div className="content">
-                            <span>10% Desconto</span>
-                            <h3>Legumes</h3>
+                            <span>Só Aqui</span>
+                            <h3>Azeite Spray</h3>
                             <Link href="/products?term=mercearia">
                                 <a className="default-btn">Compre Agora</a>
                             </Link>
@@ -20,11 +20,11 @@ const CategoryBanner = () => {
 
                 <div className="four wide column">
                     <div className="single-grocery-categories-box">
-                        <img src="https://res.cloudinary.com/dev-empty/image/upload/v1590006666/grocery-category2.jpg" alt="category"/>
+                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1600272182/mercearia/c4x3ehkxd1jqhxdgbnlh.jpg" alt="category"/>
 
                         <div className="content">
-                            <span>10% Desconto</span>
-                            <h3>Verduras</h3>
+                            <span>Pronto Para Consumo</span>
+                            <h3>Legumes Higienizados</h3>
                             <Link href="/products?term=mercearia">
                                 <a className="default-btn">Compre Agora</a>
                             </Link>
@@ -34,11 +34,11 @@ const CategoryBanner = () => {
 
                 <div className="four wide column">
                     <div className="single-grocery-categories-box">
-                        <img src="https://res.cloudinary.com/dev-empty/image/upload/v1590006689/grocery-category3.jpg" alt="category"/>
+                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1600272182/mercearia/ae0oiqdaodxrijbzdzvs.jpg" alt="category"/>
 
                         <div className="content">
-                            <span>10% OFF</span>
-                            <h3>Leite</h3>
+                            <span>Verduras Frescas</span>
+                            <h3>Pronto para consumo</h3>
                             <Link href="/products?term=mercearia">
                                 <a className="default-btn">Compre Agora</a>
                             </Link>
@@ -48,11 +48,11 @@ const CategoryBanner = () => {
 
                 <div className="four wide column">
                     <div className="single-grocery-categories-box">
-                        <img src="https://res.cloudinary.com/dev-empty/image/upload/v1590006709/grocery-category4.jpg" alt="category"/>
+                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1600272182/mercearia/yv3dlvdt7jro4eh8b0an.jpg" alt="category"/>
 
                         <div className="content">
-                            <span>10% Desconto</span>
-                            <h3>Ovos</h3>
+                            <span>Chocolate Milk</span>
+                            <h3>Sabor incomparavel</h3>
                             <Link href="/products?term=mercearia">
                                 <a className="default-btn">Compre Agora</a>
                             </Link>
