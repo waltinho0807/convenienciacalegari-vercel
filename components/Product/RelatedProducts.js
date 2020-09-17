@@ -20,7 +20,7 @@ const RelatedProducts = ({related = []}) => {
                                     {p.name}
                                 </div>
                                 <div className="meta">
-                                    ${p.price}
+                                    R${p.price}
                                 </div>
                             </div>
                         </a>

@@ -20,7 +20,7 @@ const HotProducts = ({products}) => {
                                     {product.name}
                                 </div>
                                 <div className="meta">
-                                    ${product.price}
+                                    R${product.price}
                                 </div>
                             </div>
                         </a>

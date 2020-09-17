@@ -18,7 +18,7 @@ Furniture.getInitialProps = async (ctx) => {
     // console.log(ctx.query)
     const page = ctx.query.page ? ctx.query.page : "1";
     const size = 8;
-    const searchTerm = "furniture";
+    const searchTerm = "congelados";
     // fetch data on server
     const url = `${baseUrl}/api/products`;
     const payload = { params: {page, size, searchTerm}}
