@@ -5,7 +5,7 @@ const RelatedProducts = ({related = []}) => {
     return(
         <div className="related-products-area">
             <div className="section-title">
-                <h2>Related Products</h2>
+                <h2>Produtos Relacionados</h2>
             </div>
 
             <div className="ui centered stackable four cards">

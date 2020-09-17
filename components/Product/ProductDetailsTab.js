@@ -5,7 +5,7 @@ const ProductDetailsTab = ({description}) => {
     return (
         <Tab panes={[
             { 
-                menuItem: 'Description', render: () => 
+                menuItem: 'Descrição', render: () => 
                 <Tab.Pane>
                     <div className="products-details-tab-content">
                         <p>
@@ -16,7 +16,7 @@ const ProductDetailsTab = ({description}) => {
                 </Tab.Pane> 
             },
             { 
-                menuItem: 'Additional Information', render: () => 
+                menuItem: 'Infomações Adicionais', render: () => 
                 <Tab.Pane>
                     <div className="products-details-tab-content">
                         <Table singleLine>
@@ -66,19 +66,19 @@ const ProductDetailsTab = ({description}) => {
                 </Tab.Pane> 
             },
             { 
-                menuItem: ' Shipping', render: () => 
+                menuItem: ' Entregas', render: () => 
                 <Tab.Pane>
                     <div className="products-details-tab-content">
                         <Table singleLine>
                             <Table.Body>
                                 <Table.Row>
-                                    <Table.Cell>Shipping</Table.Cell>
-                                    <Table.Cell>This item Ship to USA</Table.Cell>
+                                    <Table.Cell>Entregas</Table.Cell>
+                                    <Table.Cell>As entregas são feitas em até uma hora </Table.Cell>
                                 </Table.Row>
                                 
                                 <Table.Row>
-                                    <Table.Cell>Delivery</Table.Cell>
-                                    <Table.Cell>Monday, June 7, 2020</Table.Cell>
+                                    <Table.Cell>Horarios</Table.Cell>
+                                    <Table.Cell>10:00  até as 19:00 </Table.Cell>
                                 </Table.Row>
                             </Table.Body>
                         </Table>
@@ -86,17 +86,17 @@ const ProductDetailsTab = ({description}) => {
                 </Tab.Pane> 
             },
             { 
-                menuItem: 'Why Buy From Us', render: () => 
+                menuItem: 'Por que comprar conosco', render: () => 
                 <Tab.Pane>
         
                     <div className="products-details-tab-content">
-                        <p>Here are 5 more great reasons to buy from us:</p>
+                        <p>Nós da conveniencia Calegari:</p>
                         <ul>
-                            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</li>
-                            <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</li>
-                            <li>When an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
-                            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-                            <li>When an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
+                            <li>Pretendemos trabalhar sempre para melhos atende-lo.</li>
+                            <li>Sempre trazendo produtos diferenciados e  exclusivos.</li>
+                            <li>Procuramos sempre fazer as entregas com maior eficacia.</li>
+                            <li>Agora estamos começando com nossa loja virtual para que suas compras possam ser feitas do seu conforto.</li>
+    
                         </ul>
                     </div>
                 </Tab.Pane> 

@@ -46,7 +46,7 @@ const AddProductToCart = ({ user, productId }) => {
                 type="number"
                 min="1"
                 max="10"
-                placeholder="Quantity"
+                placeholder="Quantidade"
                 value={quantity}
                 onChange={e => setQuantity(Number(e.target.value))}
                 action={

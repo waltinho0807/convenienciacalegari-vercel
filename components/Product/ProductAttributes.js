@@ -26,14 +26,14 @@ const ProductAttributes = ({ description, _id, user }) => {
                     <Button
                         icon="edit" 
                         color="green"
-                        content="Update Product"
+                        content="Update Produto"
                         onClick={() => Router.replace(`/admin/product/edit/${_id}`)} 
                         className="mr-10"
                     />
                     <Button
                         icon="trash alternate outline" 
                         color="red"
-                        content="Delete Product"
+                        content="Deletar Produto"
                         onClick={() => setModal(true)}
                     />
                     <TransitionablePortal
@@ -42,9 +42,9 @@ const ProductAttributes = ({ description, _id, user }) => {
                         transition={{animation: 'scale', duration: 500}}
                     >
                     <Modal open={modal} size="mini" dimmer="blurring">
-                        <Modal.Header>Confirm Delete</Modal.Header>
+                        <Modal.Header>Confirmar Delete</Modal.Header>
                         <Modal.Content>
-                            <p>Are you sure you want to delete this product?</p>
+                            <p>Você tem certeza que quer deletar esse produto?</p>
                         </Modal.Content>
                         <Modal.Actions>
                             <Button

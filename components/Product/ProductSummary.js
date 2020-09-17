@@ -20,19 +20,19 @@ const ProductSummary = ({ name, mediaUrl, _id, price, sku, productType, user }) 
 
                         <ul className="products-info">
                             <li>
-                                <span>Vendor:</span>
+                                <span>Fornecedor:</span>
                                 <Link href="#">
-                                    <a onClick={e => e.preventDefault()}>Lereve</a>
+                                    <a onClick={e => e.preventDefault()}>#</a>
                                 </Link>
                             </li>
                             <li>
-                                <span>Availability:</span>
+                                <span>Avaliação:</span>
                                 <Link href="#">
-                                    <a onClick={e => e.preventDefault()}>In stock</a>
+                                    <a onClick={e => e.preventDefault()}>Em estoque</a>
                                 </Link>
                             </li>
                             <li>
-                                <span>Products Type:</span>
+                                <span>Produto Tipo:</span>
                                 <Link href={`/products?term=${productType}`}>
                                     <a>{productType.toUpperCase()}</a>
                                 </Link>
