@@ -37,14 +37,13 @@ export default async (req, res) => {
             receipt_email: paymentData.email,
             customer,
             description: `Checkout | ${paymentData.email} | ${paymentData.id}`,
-            metadata: args
         },{
             idempotency_key: uuidv4()
         });
 
         await new Order({
             user: userId,
-            email: paymentData.args,
+            email: paymentData.email,
             total: cartTotal,
             products: cart.products
         }).save();
