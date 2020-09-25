@@ -44,7 +44,6 @@ export default async (req, res) => {
         await new Order({
             user: userId,
             email: paymentData.email,
-            address: paymentData.token,
             total: cartTotal,
             products: cart.products
         }).save();
