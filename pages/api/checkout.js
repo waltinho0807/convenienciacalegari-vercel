@@ -35,6 +35,7 @@ export default async (req, res) => {
             currency: "brl",
             amount: stripeTotal,
             receipt_email: paymentData.email,
+            shipping_address: paymentData.shippingAddress,
             customer,
             description: `Checkout | ${paymentData.email} | ${paymentData.id}`
         },{
