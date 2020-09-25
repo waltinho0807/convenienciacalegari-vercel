@@ -19,9 +19,9 @@ const AllOrders = ({ orders }) => {
                     <>
                         <List.Header as="h3">
                             Total: R${order.total}
+                            <Label content={order.address}/>
                             <Label 
                                 content={order.email}
-                                content={order.address}
                                 icon="mail"
                                 basic
                                 horizontal
