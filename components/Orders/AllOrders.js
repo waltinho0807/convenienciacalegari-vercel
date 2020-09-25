@@ -21,6 +21,7 @@ const AllOrders = ({ orders }) => {
                             Total: R${order.total}
                             <Label 
                                 content={order.email}
+                                content={order.address}
                                 icon="mail"
                                 basic
                                 horizontal
