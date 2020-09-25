@@ -9,6 +9,7 @@ const stripe = Stripe(process.env.STRIPE_SECRET_KEY);
 
 export default async (req, res) => {
     const { paymentData } = req.body;
+    console.log(paymentData);
 
     try {
         const {userId} = jwt.verify(req.headers.authorization, process.env.JWT_SECRET);
@@ -43,6 +44,7 @@ export default async (req, res) => {
         await new Order({
             user: userId,
             email: paymentData.email,
+            address: paymentData.shippingAddress,
             total: cartTotal,
             products: cart.products
         }).save();
