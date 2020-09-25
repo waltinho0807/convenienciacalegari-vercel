@@ -35,16 +35,16 @@ export default async (req, res) => {
             currency: "brl",
             amount: stripeTotal,
             receipt_email: paymentData.email,
-            shipping_address: paymentData.shippingAddress,
             customer,
-            description: `Checkout | ${paymentData.email} | ${paymentData.id}`
+            description: `Checkout | ${paymentData.email} | ${paymentData.id}`,
+            metadata: args
         },{
             idempotency_key: uuidv4()
         });
 
         await new Order({
             user: userId,
-            email: paymentData.email,
+            email: paymentData.args,
             total: cartTotal,
             products: cart.products
         }).save();
