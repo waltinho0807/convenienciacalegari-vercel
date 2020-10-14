@@ -6,7 +6,7 @@ const CategoryBanner = () => {
             <div className="ui grid">
                 <div className="four wide column">
                     <div className="single-grocery-categories-box">
-                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602675713/bebidas/mus3xq1kua2vmnj6e8of.jpg" alt="Categories" />
+                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602678615/bebidas/x71fp2imioe9ky9hsyuw.jpg" alt="Categories" />
 
                         <div className="content">
                             <span>10% Desconto</span>
@@ -20,7 +20,7 @@ const CategoryBanner = () => {
 
                 <div className="four wide column">
                     <div className="single-grocery-categories-box">
-                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602676610/bebidas/sygaze8orhb9n9zuwgyu.jpg" alt="Categories" />
+                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602678881/bebidas/utupoqca2ieyzbsoftct.jpg" alt="Categories" />
 
                         <div className="content">
                             <span>20% Desconto</span>
@@ -34,7 +34,7 @@ const CategoryBanner = () => {
 
                 <div className="four wide column">
                     <div className="single-grocery-categories-box">
-                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602676777/bebidas/nfao3arkyddsxn3a0cbs.webp" alt="Categories" />
+                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602678872/bebidas/nyczocxx5p8oyilafhxw.jpg" alt="Categories" />
 
                         <div className="content">
                             <span>10% Desconto</span>
@@ -48,7 +48,7 @@ const CategoryBanner = () => {
 
                 <div className="four wide column">
                     <div className="single-grocery-categories-box">
-                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602676947/bebidas/fd4ujqcc7hpq2fgpswn9.jpg" alt="Categories" />
+                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602678612/bebidas/fsvpn8cgiaaq0avt7ylt.jpg" alt="Categories" />
 
                         <div className="content">
                             <span>20% OFF</span>
