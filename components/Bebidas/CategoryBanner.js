@@ -6,7 +6,7 @@ const CategoryBanner = () => {
             <div className="ui grid">
                 <div className="four wide column">
                     <div className="single-grocery-categories-box">
-                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602678615/bebidas/x71fp2imioe9ky9hsyuw.jpg" alt="Categories" />
+                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602676947/bebidas/fd4ujqcc7hpq2fgpswn9.jpg" alt="Categories" />
 
                         <div className="content">
                             <span>10% Desconto</span>
