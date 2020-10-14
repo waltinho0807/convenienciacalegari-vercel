@@ -7,7 +7,7 @@ const CategoryBanner = () => {
                 <div className="ui grid">
                     <div className="four wide column">
                         <div className="single-categories-box on-hover">
-                            <img src="https://res.cloudinary.com/dev-empty/image/upload/v1590079588/furniture-categories-img1.jpg" alt="Categories" />
+                            <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602677664/congelados/urxejflrgqvj1eustlgb.png" alt="Categories" />
 
                             <div className="content text-white">
                                 <span>Experimente Novos Sabores</span>
@@ -24,7 +24,7 @@ const CategoryBanner = () => {
 
                     <div className="four wide column">
                         <div className="single-categories-box on-hover">
-                            <img src="https://res.cloudinary.com/dev-empty/image/upload/v1590079617/furniture-categories-img2.jpg" alt="Categories" />
+                            <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602677706/congelados/veuzoklt0ltdqqelug8m.png" alt="Categories" />
                             
                             <div className="content">
                                 <span>Delicias Praticas</span>
@@ -41,7 +41,7 @@ const CategoryBanner = () => {
 
                     <div className="four wide column">
                         <div className="single-categories-box on-hover">
-                            <img src="https://res.cloudinary.com/dev-empty/image/upload/v1590079642/furniture-categories-img3.jpg" alt="Categories" />
+                            <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602677660/congelados/uc2h96odn46reoxzfjsg.jpg" alt="Categories" />
                             
                             <div className="content">
                                 <span>Diferencial </span>
@@ -58,7 +58,7 @@ const CategoryBanner = () => {
 
                     <div className="four wide column">
                         <div className="single-categories-box on-hover">
-                            <img src="https://res.cloudinary.com/dev-empty/image/upload/v1590079662/furniture-categories-img4.jpg" alt="Categories" />
+                            <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602677652/congelados/jbzcxm8fi6jnlfuybmtj.jpg" alt="Categories" />
                              
                             <div className="content text-white">
                                 <span>Pegue 20% Desconto</span>
