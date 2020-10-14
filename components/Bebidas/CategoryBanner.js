@@ -48,7 +48,7 @@ const CategoryBanner = () => {
 
                 <div className="four wide column">
                     <div className="single-grocery-categories-box">
-                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602678612/bebidas/fsvpn8cgiaaq0avt7ylt.jpg" alt="Categories" />
+                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602680147/bebidas/w9qzp1fdkcd4gjirzs7q.jpg" alt="Categories" />
 
                         <div className="content">
                             <span>20% OFF</span>
