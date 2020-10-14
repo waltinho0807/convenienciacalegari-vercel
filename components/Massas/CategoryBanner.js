@@ -6,11 +6,11 @@ const CategoryBanner = () => {
             <div className="ui grid">
                 <div className="four wide column">
                     <div className="single-grocery-categories-box jewelry-categorie">
-                        <img src="images/jewelry-category1.jpg" alt="Categories" />
+                        <img src="images/massas1.jpg" alt="Categories" />
 
                         <div className="content">
-                            <span>10% Desconto</span>
-                            <h3>Rondele</h3>
+                            <span>Massas de qualidade</span>
+                            <h3>Inhoque Recheado</h3>
                             <Link href="/products?term=massas">
                                 <a className="default-btn">Compre Agora</a>
                             </Link>
@@ -20,11 +20,11 @@ const CategoryBanner = () => {
 
                 <div className="four wide column">
                     <div className="single-grocery-categories-box jewelry-categorie overly">
-                        <img src="images/jewelry-category2.jpg" alt="Categories" />
+                        <img src="images/massas2.jpg" alt="Categories" />
 
                         <div className="content">
-                            <span className="color-white">20% Desconto</span>
-                            <h3 className="color-white">Inhoque</h3>
+                            <span className="color-white">Varios sabores</span>
+                            <h3 className="color-white">Rodelle</h3>
                             <Link href="/products?term=massas">
                                 <a className="default-btn">Compre Agora</a>
                             </Link>
@@ -34,11 +34,11 @@ const CategoryBanner = () => {
 
                 <div className="four wide column">
                     <div className="single-grocery-categories-box jewelry-categorie overly">
-                        <img src="images/jewelry-category3.jpg" alt="Categories" />
+                        <img src="images/massas3.jpg" alt="Categories" />
 
                         <div className="content">
-                            <span className="color-white">10% Desconto</span>
-                            <h3 className="color-white">Canelone</h3>
+                            <span className="color-white">Massas Mais variedas</span>
+                            <h3 className="color-white">Rondelle de Espinafre</h3>
                             <Link href="/products?term=massas">
                                 <a className="default-btn">Compre Agora</a>
                             </Link>
@@ -48,11 +48,11 @@ const CategoryBanner = () => {
 
                 <div className="four wide column ">
                     <div className="single-grocery-categories-box jewelry-categorie overly">
-                        <img src="images/jewelry-category4.jpg" alt="Categories" />
+                        <img src="images/massas4.jpg" alt="Categories" />
 
                         <div className="content">
-                            <span className="color-white">10% Desconto</span>
-                            <h3 className="color-white">Panqueca</h3>
+                            <span className="color-white">Grande variedade em</span>
+                            <h3 className="color-white">Panquecas</h3>
                             <Link href="/products?term=massas">
                                 <a className="default-btn">Compre Agora</a>
                             </Link>
