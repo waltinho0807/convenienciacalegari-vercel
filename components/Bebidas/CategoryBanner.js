@@ -20,7 +20,7 @@ const CategoryBanner = () => {
 
                 <div className="four wide column">
                     <div className="single-grocery-categories-box">
-                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602678881/bebidas/utupoqca2ieyzbsoftct.jpg" alt="Categories" />
+                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602682414/bebidas/zhsxxdlr81vkeeigcwm6.jpg" alt="Categories" />
 
                         <div className="content">
                             <span>20% Desconto</span>
@@ -34,7 +34,7 @@ const CategoryBanner = () => {
 
                 <div className="four wide column">
                     <div className="single-grocery-categories-box">
-                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602678872/bebidas/nyczocxx5p8oyilafhxw.jpg" alt="Categories" />
+                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602682845/bebidas/limssms92korfurw6cfo.jpg" alt="Categories" />
 
                         <div className="content">
                             <span>10% Desconto</span>
@@ -48,7 +48,7 @@ const CategoryBanner = () => {
 
                 <div className="four wide column">
                     <div className="single-grocery-categories-box">
-                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602680147/bebidas/w9qzp1fdkcd4gjirzs7q.jpg" alt="Categories" />
+                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602682979/bebidas/rpdai3skyoeyfzwt5ns7.jpg" alt="Categories" />
 
                         <div className="content">
                             <span>20% OFF</span>
