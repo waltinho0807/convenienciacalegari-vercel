@@ -20,7 +20,7 @@ const CategoryBanner = () => {
 
                 <div className="four wide column">
                     <div className="single-grocery-categories-box">
-                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602682414/bebidas/zhsxxdlr81vkeeigcwm6.jpg" alt="Categories" />
+                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602851471/bebidas/upqswenor31hz9sz5pj3.png" alt="Categories" />
 
                         <div className="content">
                             <span>Grande variedade</span>
@@ -48,7 +48,7 @@ const CategoryBanner = () => {
 
                 <div className="four wide column">
                     <div className="single-grocery-categories-box">
-                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602682979/bebidas/rpdai3skyoeyfzwt5ns7.jpg" alt="Categories" />
+                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602851102/bebidas/ljvh4cr0i6yidzi6sg0d.png" alt="Categories" />
 
                         <div className="content">
                             <span>Grande Variedade Em</span>
