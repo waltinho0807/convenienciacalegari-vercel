@@ -34,7 +34,7 @@ const CategoryBanner = () => {
 
                 <div className="four wide column">
                     <div className="single-grocery-categories-box">
-                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602682845/bebidas/limssms92korfurw6cfo.jpg" alt="Categories" />
+                        <img src="https://res.cloudinary.com/dye38whh3/image/upload/v1602850374/bebidas/sllpbtfdtvenixl85ml1.png" alt="Categories" />
 
                         <div className="content">
                             <span>Budweiser Long. Promoção</span>
