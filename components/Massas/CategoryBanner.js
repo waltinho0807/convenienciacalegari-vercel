@@ -6,7 +6,7 @@ const CategoryBanner = () => {
             <div className="ui grid">
                 <div className="four wide column">
                     <div className="single-grocery-categories-box jewelry-categorie">
-                        <img src="images/massasatual1.jpg" alt="Categories" />
+                        <img src="images/massasatual1.png" alt="Categories" />
 
                         <div className="content">
                             <span>Massas de qualidade</span>
