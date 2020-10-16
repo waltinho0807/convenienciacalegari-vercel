@@ -20,7 +20,7 @@ const CategoryBanner = () => {
 
                 <div className="four wide column">
                     <div className="single-grocery-categories-box jewelry-categorie overly">
-                        <img src="images/massas2.jpg" alt="Categories" />
+                        <img src="images/massasatual2.png" alt="Categories" />
 
                         <div className="content">
                             <span className="color-white">Varios sabores</span>
@@ -34,7 +34,7 @@ const CategoryBanner = () => {
 
                 <div className="four wide column">
                     <div className="single-grocery-categories-box jewelry-categorie overly">
-                        <img src="images/massas3.jpg" alt="Categories" />
+                        <img src="images/massasatual3.png" alt="Categories" />
 
                         <div className="content">
                             <span className="color-white">Massas Mais variedas</span>
@@ -48,7 +48,7 @@ const CategoryBanner = () => {
 
                 <div className="four wide column ">
                     <div className="single-grocery-categories-box jewelry-categorie overly">
-                        <img src="images/massas4.jpg" alt="Categories" />
+                        <img src="images/massasatual4.png" alt="Categories" />
 
                         <div className="content">
                             <span className="color-white">Grande variedade em</span>
