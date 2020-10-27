@@ -69,7 +69,7 @@ const Cart = ({ products, user }) => {
         e.preventDefault();
         try {
             setLoading(true);
-            const url = `${baseUrl}/api/checkout2`;
+            const url = `${baseUrl}/api/checkout`;
             const token = cookie.get("token");
             const { phone, forma, troco, address, numero, bairro } = order;
             const payload = { phone, forma, troco, address, numero, bairro };
