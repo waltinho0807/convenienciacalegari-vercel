@@ -19,7 +19,6 @@ const AllOrders = ({ orders }) => {
                     <>
                         <List.Header as="h3">
                             Total: R${order.total}
-                            <Label content={order.address}/>
                             <Label 
                                 content={`${order.address},  ${order.numero},  ${order.bairro}`}
                                 icon="shipping"
