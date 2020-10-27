@@ -21,8 +21,29 @@ const AllOrders = ({ orders }) => {
                             Total: R${order.total}
                             <Label content={order.address}/>
                             <Label 
-                                content={order.email}
-                                icon="mail"
+                                content={`${order.address},  ${order.numero},  ${order.bairro}`}
+                                icon="shipping"
+                                basic
+                                horizontal
+                                style={{marginLeft: '1em'}}
+                            />
+                            <Label 
+                                content={order.phone}
+                                icon="phone"
+                                basic
+                                horizontal
+                                style={{marginLeft: '1em'}}
+                            />
+                            <Label 
+                                content={order.forma}
+                                icon="money"
+                                basic
+                                horizontal
+                                style={{marginLeft: '1em'}}
+                            />
+                            <Label 
+                                content={`Troco Para R$ ${order.troco}`}
+                                icon="money"
                                 basic
                                 horizontal
                                 style={{marginLeft: '1em'}}
