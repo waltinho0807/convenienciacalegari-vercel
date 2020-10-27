@@ -21,8 +21,27 @@ const OrderSchema = new mongoose.Schema({
             }
         }
     ],
-    email: {
+    phone: {
         type: String,
+        required: true
+    },
+    forma: {
+        type: String,
+        required: true
+    },
+    troco: {
+        type: Number
+    },
+    address: {
+        type: String,
+        required: true
+    },
+    bairro: {
+        type: String,
+        required: true
+    },
+    numero: {
+        type: Number,
         required: true
     },
     total: {
