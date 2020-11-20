@@ -52,13 +52,13 @@ const AddProductToCart = ({ user, productId }) => {
                 action={
                     user && success ? {
                         color: 'blue',
-                        content: 'Item Added!',
+                        content: 'Item Adicionado!',
                         icon: 'plus cart',
                         disabled: true
                     } : 
                     user ? {
                     color: 'violet',
-                    content: 'Add to Cart',
+                    content: 'add carrinho',
                     icon: 'plus cart',
                     loading: loading,
                     disbaled: `${loading}`,

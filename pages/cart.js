@@ -97,7 +97,7 @@ const Cart = ({ products, user }) => {
                 <React.Fragment>
                     <Divider />
                     <Segment clearing size="large" >
-                        <strong>Sub total:</strong> ${cartAmout}
+                        <strong>Sub total:</strong> R${cartAmout}
                         <Form success={success} onSubmit={handleCheckout}>
                             <Form.Input
                                 fluid
