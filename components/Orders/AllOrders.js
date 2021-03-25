@@ -77,13 +77,13 @@ const AllOrders = ({ orders }) => {
         <>
             <Header as="h2">
                 <Icon name="folder open" />
-                Orders
+                Ordens
             </Header>
             {orders.length === 0 ? (
                 <Segment inverted tertiary color="pink" textAlign="center">
                     <Header icon>
                         <Icon name="copy outline" />
-                        Não Há Ordems.
+                        Não Há Ordens.
                     </Header>
                     <Button onClick={() => router.push('/products')} color="violet">
                         Ver Produtos

@@ -6,7 +6,7 @@ const Banner = () => {
             <div className="grocery-banner-content">
                 <h1>Conveniencia Calegari </h1>
                 <p>Produtos de qualidade com preços baixos</p>
-                <h2>GÁS R$ 65,00 </h2>
+                <h2></h2>
                 <Link href="/products?term=mercearia">
                     <a className="default-btn">Compre Agora</a>
                 </Link>
